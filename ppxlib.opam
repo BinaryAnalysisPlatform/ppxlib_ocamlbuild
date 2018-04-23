@@ -15,5 +15,6 @@ depends: [
   "ocaml-migrate-parsetree" {>= "1.0"}
   "ppx_derivers"            {>= "1.0"}
   "stdio"                   {>= "v0.11.0"}
+  "ocamlbuild"
 ]
 available: [ ocaml-version >= "4.04.1" ]

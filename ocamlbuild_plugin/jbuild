@@ -1,0 +1,8 @@
+(library
+ (  (name ppxlib_ocamlbuild)
+  (public_name ppxlib.ocamlbuild)
+  (libraries (ocamlbuild))
+  (flags (:standard -I +ocamlbuild))
+  (preprocess no_preprocessing)))
+
+(jbuild_version 1)
