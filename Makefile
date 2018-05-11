@@ -2,7 +2,7 @@ INSTALL_ARGS := $(if $(PREFIX),--prefix $(PREFIX),)
 
 # Default rule
 default:
-	jbuilder build --dev --auto-promote @cinaps @install
+	jbuilder build --dev --auto-promote @install
 
 install:
 	jbuilder install $(INSTALL_ARGS)
